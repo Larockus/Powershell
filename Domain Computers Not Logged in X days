@@ -1,4 +1,4 @@
-#This script shows idle machines based on last login time. 
+#This script shows idle domain machines based on last login time in Active Directory. 
 
 #Script output is saved to the root drive where the script was ran from.
 Write-Host (" `r`nThis script will search the entire domain of the current machine for any computers whith no logon history older than the defined value.`r`n") -ForegroundColor  Red -Backgroundcolor Black
